@@ -1,0 +1,22 @@
+{
+  "scripts": {
+    "build:client": "npx webpack --progress",
+    "build:ssr": "npx webpack --config ./ssr/webpack.config.js --progress"
+  },
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-helmet": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/prop-types": "^15.7.3",
+    "@types/react": "^16.9.35",
+    "@types/react-dom": "^16.9.8",
+    "@types/react-helmet": "^6.0.0",
+    "ts-loader": "^7.0.5",
+    "typescript": "^3.9.5",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  }
+}

@@ -1,0 +1,14 @@
+[package]
+name = "client-snap"
+version = "0.0.1"
+publish = false
+
+[lib]
+crate-type = ["staticlib" ]
+
+[dependencies]
+js-snap = { git = "ssh://git@github.com:22/austinEng/js-snap.git" }
+
+[build-dependencies]
+cbindgen = "0.14.2"
+js-snap = { git = "ssh://git@github.com:22/austinEng/js-snap.git" }
